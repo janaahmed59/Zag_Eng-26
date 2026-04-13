@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "Task_3_API.Controllers.FeedBackController",
+    "Method": "CreateFeedback",
+    "RelativePath": "FeedBack/info",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestBody",
+        "Type": "Task_3_API.Data.FeedbackRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "rate",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_3_API.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Task_3_API.WeatherForecast, Task-3 API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
